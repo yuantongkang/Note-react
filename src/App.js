@@ -3,7 +3,7 @@ import logo from './logo.svg';
 
 //components
 import Emoji from './Emoji';
-
+import Login from './components/login'
 //styles
 import './App.scss';
 import './App.less';
@@ -19,6 +19,7 @@ class App extends Component {
   render() {
     return (
       <div className="App">
+        <Login/>
         <div className={cssStyles.header}>
           <img src={logo} className="App-logo" alt="logo" />
           <h2 className="App-title">
